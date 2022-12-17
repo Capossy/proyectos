@@ -315,8 +315,8 @@ return [
             'text'        => 'Articulos',
             'url'         => 'productos',
             'icon'        => 'far fa-fw fa-file',
-            'label'       => 'crud',
-            'label_color' => 'success',
+            /*'label'       => '',
+            'label_color' => 'success',*/
         ],
         ['header' => 'Configuracion de la cuenta'],
         [
@@ -330,17 +330,17 @@ return [
             'icon' => 'fas fa-fw fa-lock',
         ],
         [
-            'text'    => 'multilevel',
+            'text'    => 'Datos',
             'icon'    => 'fas fa-fw fa-share',
             'submenu' => [
                 [
-                    'text' => 'level_one',
-                    'url'  => '#',
+                    'text' => 'Acerca de nosotros',
+                    'url'  => '/about',
                 ],
                 [
-                    'text'    => 'level_one',
-                    'url'     => '#',
-                    'submenu' => [
+                    'text'    => 'Contactenos',
+                    'url'     => '/contacto',
+                    /*'submenu' => [
                         [
                             'text' => 'level_two',
                             'url'  => '#',
@@ -359,15 +359,15 @@ return [
                                 ],
                             ],
                         ],
-                    ],
+                    ],*/
                 ],
-                [
+                /*[
                     'text' => 'level_one',
                     'url'  => '#',
-                ],
+                ],*/
             ],
         ],
-        ['header' => 'labels'],
+        /*['header' => 'labels'],
         [
             'text'       => 'important',
             'icon_color' => 'red',
@@ -382,7 +382,7 @@ return [
             'text'       => 'information',
             'icon_color' => 'cyan',
             'url'        => '#',
-        ],
+        ],*/
     ],
 
     /*

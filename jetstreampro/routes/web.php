@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\WebController;
 use App\Http\Controllers\ProductoController;
 use Illuminate\Support\Facades\Route;
 
@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/index', [WebController::class,'index']);
+Route::get('/about', [WebController::class,'aboutus']);
+Route::get('/contacto', [WebController::class,'contactenos']);
+Route::get('/canales', [WebController::class,'canales']);
+
 
 Route::get('/', function () {
     return view('auth.login');
@@ -29,3 +34,4 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
