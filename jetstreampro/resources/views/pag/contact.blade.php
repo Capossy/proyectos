@@ -48,7 +48,7 @@
     <!-- Spinner End -->
 
 
-    <!-- Topbar Start -->
+    <!-- Topbar Start 
     <div class="container-fluid bg-light ps-5 pe-0 d-none d-lg-block">
         <div class="row gx-0">
             <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
@@ -68,7 +68,7 @@
             </div>
         </div>
     </div>
-    <!-- Topbar End -->
+     Topbar End -->
 
 
     <!-- Navbar Start -->
@@ -84,7 +84,7 @@
                 <a href="index" class="nav-item nav-link">Inicio</a>
                 <a href="about" class="nav-item nav-link">Acerca de Nosotros</a>
                 <a href="canales" class="nav-item nav-link">Canales</a>
-                <div class="nav-item dropdown">
+                <!--<div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu m-0">
                         <a href="price.html" class="dropdown-item">Pricing Plan</a>
@@ -92,17 +92,17 @@
                         <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                         <a href="appointment.html" class="dropdown-item">Appointment</a>
                     </div>
-                </div>
+                </div>-->
                 <a href="contacto" class="nav-item nav-link active">Contacto</a>
             </div>
-            <button type="button" class="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
+            <!--<button type="button" class="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>-->
             <a href="appointment.html" class="btn btn-primary py-2 px-4 ms-3">Appointment</a>
         </div>
     </nav>
     <!-- Navbar End -->
 
 
-    <!-- Full Screen Search Start -->
+    <!-- Full Screen Search Start
     <div class="modal fade" id="searchModal" tabindex="-1">
         <div class="modal-dialog modal-fullscreen">
             <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
@@ -118,17 +118,17 @@
             </div>
         </div>
     </div>
-    <!-- Full Screen Search End -->
+     Full Screen Search End -->
 
 
     <!-- Hero Start -->
-    <div class="container-fluid bg-primary py-5 hero-header mb-5">
+    <div class="container-fluid bg-primary py-5 mb-5">
         <div class="row py-3">
             <div class="col-12 text-center">
-                <h1 class="display-3 text-white animated zoomIn">Contact Us</h1>
-                <a href="" class="h4 text-white">Home</a>
+                <h1 class="display-3 text-white animated zoomIn">Contactenos</h1>
+                <!--<a href="index" class="h4 text-white">Inicio</a>
                 <i class="far fa-circle text-white px-2"></i>
-                <a href="" class="h4 text-white">Contact</a>
+                <a href="contacto" class="h4 text-white">Contacto</a>-->
             </div>
         </div>
     </div>
@@ -142,27 +142,27 @@
                 <div class="col-xl-4 col-lg-6 wow slideInUp" data-wow-delay="0.1s">
                     <div class="bg-light rounded h-100 p-5">
                         <div class="section-title">
-                            <h5 class="position-relative d-inline-block text-primary text-uppercase">Contact Us</h5>
+                            <!--<h5 class="position-relative d-inline-block text-primary text-uppercase">Contact Us</h5>-->
                             <h1 class="display-6 mb-4">Contactenos</h1>
                         </div>
                         <div class="d-flex align-items-center mb-2">
                             <i class="bi bi-geo-alt fs-1 text-primary me-3"></i>
                             <div class="text-start">
-                                <h5 class="mb-0">Our Office</h5>
+                                <h5 class="mb-0">Nuestras Oficinas</h5>
                                 <span>123 Street, New York, USA</span>
                             </div>
                         </div>
                         <div class="d-flex align-items-center mb-2">
                             <i class="bi bi-envelope-open fs-1 text-primary me-3"></i>
                             <div class="text-start">
-                                <h5 class="mb-0">Email Us</h5>
+                                <h5 class="mb-0">Nuestro Email</h5>
                                 <span>info@example.com</span>
                             </div>
                         </div>
                         <div class="d-flex align-items-center">
                             <i class="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
                             <div class="text-start">
-                                <h5 class="mb-0">Call Us</h5>
+                                <h5 class="mb-0">Numero de telefono</h5>
                                 <span>+012 345 6789</span>
                             </div>
                         </div>
@@ -172,19 +172,19 @@
                     <form>
                         <div class="row g-3">
                             <div class="col-12">
-                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="Your Name" style="height: 55px;">
+                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="Tu nombre" style="height: 55px;">
                             </div>
                             <div class="col-12">
-                                <input type="email" class="form-control border-0 bg-light px-4" placeholder="Your Email" style="height: 55px;">
+                                <input type="email" class="form-control border-0 bg-light px-4" placeholder="Tu Email" style="height: 55px;">
                             </div>
                             <div class="col-12">
-                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="Subject" style="height: 55px;">
+                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="Asunto" style="height: 55px;">
                             </div>
                             <div class="col-12">
-                                <textarea class="form-control border-0 bg-light px-4 py-3" rows="5" placeholder="Message"></textarea>
+                                <textarea class="form-control border-0 bg-light px-4 py-3" rows="5" placeholder="Mensaje"></textarea>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                                <button class="btn btn-primary w-100 py-3" type="submit">Enviar Mensaje</button>
                             </div>
                         </div>
                     </form>
@@ -207,7 +207,7 @@
             <div class="bg-primary p-5">
                 <form class="mx-auto" style="max-width: 600px;">
                     <div class="input-group">
-                        <input type="text" class="form-control border-white p-3" placeholder="Your Email">
+                        <input type="text" class="form-control border-white p-3" placeholder="Recibe notificaciones en tu Email">
                         <button class="btn btn-dark px-4">Sign Up</button>
                     </div>
                 </form>
@@ -222,16 +222,16 @@
         <div class="container pt-5">
             <div class="row g-5 pt-4">
                 <div class="col-lg-3 col-md-6">
-                    <h3 class="text-white mb-4">Quick Links</h3>
+                    <h3 class="text-white mb-4">Navegacion</h3>
                     <div class="d-flex flex-column justify-content-start">
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
-                        <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
-                        <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                        <a class="text-light mb-2" href="index"><i class="bi bi-arrow-right text-primary me-2"></i>Inicio</a>
+                        <a class="text-light mb-2" href="about"><i class="bi bi-arrow-right text-primary me-2"></i>Sobre Nosotros</a>
+                        <a class="text-light mb-2" href="canales"><i class="bi bi-arrow-right text-primary me-2"></i>Canales</a>
+                        <!--<a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>-->
+                        <a class="text-light" href="contacto"><i class="bi bi-arrow-right text-primary me-2"></i>Contacto</a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <!--<div class="col-lg-3 col-md-6">
                     <h3 class="text-white mb-4">Popular Links</h3>
                     <div class="d-flex flex-column justify-content-start">
                         <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
@@ -240,15 +240,15 @@
                         <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
                         <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
                     </div>
-                </div>
+                </div>-->
                 <div class="col-lg-3 col-md-6">
-                    <h3 class="text-white mb-4">Get In Touch</h3>
+                    <h3 class="text-white mb-4">Contactenos</h3>
                     <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>123 Street, New York, USA</p>
                     <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>info@example.com</p>
                     <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+012 345 67890</p>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h3 class="text-white mb-4">Follow Us</h3>
+                    <h3 class="text-white mb-4">Siganos</h3>
                     <div class="d-flex">
                         <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
                         <a class="btn btn-lg btn-primary btn-lg-square rounded me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>

@@ -7,18 +7,18 @@ class WebController extends Controller
 {
     public function index()
     {
-        return view('index');
+        return view('pag.index');
     }
     public function aboutus()
     {
-        return view('about');
+        return view('pag.about');
     }
     public function contactenos()
     {
-        return view('contact');
+        return view('pag.contact');
     }
     public function canales()
     {
-        return view('canales');
+        return view('pag.canales');
     }
 }
