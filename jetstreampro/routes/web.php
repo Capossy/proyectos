@@ -1,6 +1,7 @@
 <?php
 use App\Http\Controllers\WebController;
 use App\Http\Controllers\ProductoController;
+use App\Http\Controllers\FileController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,12 +19,14 @@ Route::get('/about', [WebController::class,'aboutus']);
 Route::get('/contacto', [WebController::class,'contactenos']);
 Route::get('/canales', [WebController::class,'canales']);
 
+Route::resource('file', FileController::class);
+
 
 Route::get('/', function () {
     return view('auth.login');
 });
 
-Route::resource('productos', 'App\Http\Controllers\ProductoController');
+Route::resource('productos', FileController::class);
 
 Route::middleware([
     'auth:sanctum',

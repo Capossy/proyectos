@@ -22,7 +22,7 @@ return new class extends Migration
             $table->string('nombre');
             $table->string('url');
             $table->string('alt');
-            $table->tinyInteger('active');
+            $table->boolean('active');
             $table->timestamps();
         });
     }

@@ -21,6 +21,7 @@ class ProductoController extends Controller
     {
         $productos = Producto::all();
         return view('producto.index')->with('productos', $productos);
+        
     }
 
     /**
